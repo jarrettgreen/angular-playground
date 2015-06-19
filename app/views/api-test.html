@@ -1,0 +1,7 @@
+<div ng-controller="ApiTest">
+  <div ng-repeat="data in weatherData.list">
+
+    <h2><img ng-src="http://openweathermap.org/img/w/{{data.weather[0].icon}}.png" alt=""> {{data.name}} - {{data.main.temp}}&deg;</h2>
+  <hr>
+</div>
+</div>
